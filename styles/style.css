@@ -658,12 +658,6 @@ footer {
   margin-bottom: 25px;
   padding-top: 50px;
 }
-.footer-content li {
-  color: var(--dark, #2b3541);
-  font-size: 14px;
-  font-weight: 400;
-  line-height: 150%;
-}
 .footer-end {
   display: flex;
   justify-content: space-between;
@@ -1709,7 +1703,7 @@ footer {
   margin-bottom: 25px;
   padding-top: 50px;
 }
-.footer-content li {
+.footer-ul a{
   color: var(--dark, #2b3541);
   font-size: 14px;
   font-weight: 400;
@@ -1851,6 +1845,9 @@ display: none;
 }
   .header-nav-content nav{
     display: none;
+  }
+  .footer-ul a{
+font-size: 12px;
   }
   .social-ul{
     gap: 19px;
