@@ -2096,7 +2096,9 @@ margin-right: -17px;
   margin-top: 31px;
 margin-bottom: 18px;
 }
-
+.modal{
+  max-width: 100%;
+}
 }
 @media (max-width:784px) {
   .training-girl{
@@ -2115,5 +2117,10 @@ margin-bottom: 18px;
 @media (max-width:713px) {
   .footer-trainer{
     max-width: 40%;
+  }
+}
+@media (max-width:390) {
+  .modal{
+    max-width: 100%;
   }
 }
