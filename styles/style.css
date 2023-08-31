@@ -994,6 +994,7 @@ margin-right: -17px;
 }
 .submit-email{
   display: none;
+  cursor: pointer;
 }
 .submit-phone{
   display: unset;
@@ -1646,6 +1647,7 @@ label {
   font-size: 16px;
   line-height: 150%;
   letter-spacing: 0.03em;
+  cursor: pointer;
   text-decoration: none;
   text-align: center;
   transition: 0.3s;
