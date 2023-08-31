@@ -838,6 +838,9 @@ width: 80px;
     position: none;
     bottom: -80px;
   }
+  .training-slider:hover{
+    transform: scale(1.1);
+  }
   .training-slider img{
     width: 52px;
     height: 40px;
