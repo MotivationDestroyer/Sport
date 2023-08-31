@@ -2119,8 +2119,79 @@ margin-bottom: 18px;
     max-width: 40%;
   }
 }
-@media (max-width:390) {
+@media (max-width:361px) {
   .modal{
     max-width: 100%;
+  }
+  .training-slider{
+    display: none;
+  }
+  .main-container{
+    flex-direction: column;
+  }
+  .training-girl{
+    margin-top: 0;
+    margin-left: 0;
+    max-width: 100%;
+  }
+  .footer-trainer{
+    display: none;
+  }
+  .timetable-container-workout{
+    display: flex;
+    flex-direction: column;
+  }
+  .workout-element{
+    position: relative;
+  }
+  .workout-element:nth-child(1){
+    width: 100%;
+    height: 114px;
+  }
+  .workout-element:nth-child(2){
+    width: 100%;
+    height: 114px;
+  }
+  .workout-element:nth-child(3){
+    width: 100%;
+    height: 114px;
+  }
+  .workout-element:nth-child(4){
+    width: 100%;
+    height: 114px;
+    background: unset;
+    box-shadow: unset;
+    border: 1px solid var(--dark, #2b3541);
+    opacity: 1;
+  }
+  .workout-element:nth-child(5){
+    width: 100%;
+    height: 114px;
+  }
+  .workout-element:nth-child(6){
+    width: 100%;
+    height: 114px;
+  }
+  .workout-element-lowblock img{
+max-width: 39px;
+  }
+  .workout-element:nth-child(2) img{
+max-width: 23px;
+  }
+  .workout-element:nth-child(4) img{
+    max-width: 34px;
+  }
+  .workout-element-lowblock{
+    display: flex;
+    margin-left: 20px;
+  }
+  .workout-element-lowblock img{
+    position: absolute;
+    left: 20px;
+    bottom: 20px;
+  }
+  .workout-element-lowblock h3{
+    margin-left: 50px;
+    margin-top: unset;
   }
 }
