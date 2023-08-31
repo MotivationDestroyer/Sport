@@ -2000,6 +2000,9 @@ font-size: 16px;
   .timetable-date{
     font-size: 16px;
   }
+  .distribution-main-text{
+    margin-bottom: 51px;
+  }
   .timetable-container-workout{
     grid-template-columns: repeat(2, 1fr) auto;
     grid-template-rows: 240px 224px auto;
