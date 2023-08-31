@@ -1991,6 +1991,9 @@ font-size: 16px;
 }
 @media (max-width:769px) {
 
+  .event-main-text{
+    font-size: 26px;
+  }
   .timetable-container-workout{
     grid-template-columns: repeat(2, 1fr) auto;
     grid-template-rows: 240px 224px auto;
