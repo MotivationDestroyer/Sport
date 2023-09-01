@@ -1059,6 +1059,9 @@ margin-bottom: 18px;
   }
 }
 @media (max-width:361px) {
+  .main-container{
+    margin-bottom: 128px;
+  }
   .modal-open{
     width: 29px;
   }
@@ -1075,8 +1078,9 @@ margin-bottom: 18px;
     flex-direction: column;
   }
   .training-girl{
-    margin-top: 0;
-    margin-left: 0;
+    margin-top: 21px;
+    margin-left: unset;
+    transform: unset;
     max-width: 100%;
   }
   .footer-trainer{
@@ -1195,5 +1199,52 @@ max-width: 23px;
 }
 .agreement-submit-text{
   margin-left: -51px;
+}
+.footer-about-company h2{
+  font-size: 26px;
+}
+.footer-about-company span{
+font-size: 16px;
+}
+.submit-training{
+  width: 340px;
+}
+.footer-about-virtues{
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+footer{
+  max-width: 360px;
+}
+.footer-nav-content{
+  flex-direction: column;
+  gap: 40px;
+  align-items: center;
+}
+.footer-nav-content img{
+  width: 97px;
+height: 30px;
+}
+.social-footer{
+  padding-top: 0;
+}
+.social-footer-content{
+    position: unset;
+    justify-content: space-between;
+}
+.footer-end{
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+  padding-top: 10px;
+}
+.footer-end span{
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 150%;
+}
+.footer-content{
+  margin-bottom: 0px;
 }
 }
