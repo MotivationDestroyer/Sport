@@ -19,6 +19,7 @@ header {
   gap: 90px;
 }
 .header-content {
+  position: relative;
   display: flex;
   justify-content: space-between;
   padding-top: 10px;
@@ -155,8 +156,22 @@ ul li:hover::after {
   cursor: pointer;
 }
 .training-girl {
-max-width: 200%;
-transform: translate(-35%, -3px);
+  position: relative;
+  transform: translate(-78%, 4px);
+/* transform: translate(-35%, -3px); */
+}
+.background-gradient{
+  position: absolute;
+  width: 400px;
+  height: 772px;
+  opacity: 0.2;
+  background: linear-gradient(90deg, #FBF138 0%, rgba(253, 249, 182, 0.45) 145.23%);
+  bottom: 4px;
+  left: 79%;
+}
+.training-girl img{
+  max-width: 200%;
+  position: relative;
 }
 .event-container {
   margin-right: 390px;
@@ -702,7 +717,6 @@ display: none;
   background-color: transparent;
   border: none;
   cursor: pointer;
-  margin-right: 204px;
 }
 .modal{
   top: -400px;
@@ -982,7 +996,21 @@ font-size: 16px;
     grid-row: 3/4;
     height: 224px;
   }
- 
+ .training-slider{
+  bottom: 0;
+ }
+ .training-girl{
+  margin-top: 101px;
+  margin-left: 299px;
+ }
+ .training-girl img{
+  max-width: 399px;
+ }
+ .background-gradient{
+    width: 357px;
+    height: 426px;
+    left: 10%;
+ }
   .distribution-main-text h3{
     color: var(--dark, #2B3541);
     font-size: 26px;
@@ -1039,12 +1067,11 @@ margin-bottom: 18px;
   max-width: 100%;
 }
 }
-@media (max-width:784px) {
-  .training-girl{
-    margin-top: 87px;
-    margin-left: 4vw;
-  }
   
+@media (max-width:713px) {
+  .footer-trainer{
+    max-width: 40%;
+  }
 }
 @media (max-width:632px) {
   .training-girl{
@@ -1053,11 +1080,7 @@ margin-bottom: 18px;
   }
   
 }
-@media (max-width:713px) {
-  .footer-trainer{
-    max-width: 40%;
-  }
-}
+
 @media (max-width:361px) {
   .main-container{
     margin-bottom: 128px;
@@ -1082,6 +1105,14 @@ margin-bottom: 18px;
     margin-left: unset;
     transform: unset;
     max-width: 100%;
+  }
+  .training-girl img{
+    max-width: 340px;
+  }
+  .background-gradient{
+    width: 339px;
+    height: 209px;
+    left: 0%;
   }
   .footer-trainer{
     display: none;
@@ -1154,6 +1185,7 @@ max-width: 23px;
     padding-left: 0;
   }
   .training-text h1{
+    max-width: 340px;
     font-size: 24px;
   }
   .training-button-info{
@@ -1247,4 +1279,5 @@ height: 30px;
 .footer-content{
   margin-bottom: 0px;
 }
+.header-nav-content{padding-left: 10px;}
 }
