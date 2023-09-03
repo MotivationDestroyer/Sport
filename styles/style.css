@@ -1280,3 +1280,37 @@ height: 30px;
 }
 .header-nav-content{padding-left: 10px;}
 }
+@media (max-width:321px) {
+  .training-text h1{
+    font-size: 20px;
+    width: 295px;
+  }
+  .training-number h2{
+    font-size: 17px;
+  }
+  .training-low-text span{
+    font-size: 18px;
+  }
+  .training-button-info{
+    width: 300px;
+    font-size: 14px;
+  }
+  .training-girl img{
+max-width: 294px;
+  }
+  .background-gradient{
+    width: 294px;
+  }
+  .submit-phone, .submit-phone:hover{
+    width: 300px;
+  }
+  .agreement-submit-text{
+    margin-left: -14px;
+  }
+  .submit-training{
+    width: 300px;
+  }
+  .footer-ul{
+    gap: 24px;
+  }
+}
