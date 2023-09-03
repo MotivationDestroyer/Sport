@@ -1080,7 +1080,7 @@ margin-bottom: 18px;
   
 }
 
-@media (max-width:361px) {
+@media (max-width:376px) {
   .main-container{
     margin-bottom: 128px;
   }
@@ -1088,7 +1088,7 @@ margin-bottom: 18px;
     width: 29px;
   }
   .container{
-    max-width: 360px;
+    max-width: 375px;
   }
   .modal{
     max-width: 100%;
@@ -1105,8 +1105,11 @@ margin-bottom: 18px;
     transform: unset;
     max-width: 100%;
   }
+  .timetable-name{
+    width: 347px;
+  }
   .training-girl img{
-    max-width: 340px;
+    max-width: 350px;
   }
   .background-gradient{
     width: 339px;
@@ -1184,11 +1187,11 @@ max-width: 23px;
     padding-left: 0;
   }
   .training-text h1{
-    max-width: 340px;
+    max-width: 350px;
     font-size: 24px;
   }
   .training-button-info{
-    width: 340px;
+    width: 350px;
   }
   .card-timeline{
     font-size: 12px;
@@ -1213,14 +1216,14 @@ max-width: 23px;
     display: unset;
 }
 .distribution-main{
-  max-width: 360px;
+  max-width: 370px;
 }
 .agreement{
   margin-left: unset;
   padding-bottom: 40px;
 }
 .submit-phone{
-  max-width: 340px;
+  max-width: 350px;
 }
 .email{
   width: 100%;
@@ -1238,7 +1241,7 @@ max-width: 23px;
 font-size: 16px;
 }
 .submit-training{
-  width: 340px;
+  width: 350px;
 }
 .footer-about-virtues{
   display: flex;
@@ -1246,7 +1249,7 @@ font-size: 16px;
   gap: 40px;
 }
 footer{
-  max-width: 360px;
+  max-width: 375px;
 }
 .footer-nav-content{
   flex-direction: column;
@@ -1277,6 +1280,23 @@ height: 30px;
 }
 .footer-content{
   margin-bottom: 0px;
+}
+@media (max-width:361px){
+  .container{
+    max-width: 360px;
+  }
+  .training-button-info{
+    width: 340px;
+  }
+  .submit-phone{
+    max-width: 340px;
+  }
+  .submit-training{
+    width: 340px;
+  }
+  footer{
+    max-width: 360px;
+  }
 }
 .header-nav-content{padding-left: 10px;}
 }
