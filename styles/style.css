@@ -1112,7 +1112,7 @@ margin-bottom: 18px;
   }
   
 }
-@media (max-width:426px) {
+@media (max-width:464px){
   .main-container{
     margin-bottom: 128px;
   }
@@ -1120,7 +1120,7 @@ margin-bottom: 18px;
     width: 29px;
   }
   .container{
-    max-width: 425px;
+    max-width: 464px;
   }
   .modal{
     max-width: 100%;
@@ -1141,11 +1141,11 @@ margin-bottom: 18px;
     width: 347px;
   }
   .training-girl img{
-    max-width: 350px;
+    max-width: 400px;
   }
   .background-gradient{
-    width: 403px;
-    height: 209px;
+    width: 444px;
+    height: 258px;
     left: 0%;
   }
   .footer-trainer{
@@ -1223,7 +1223,7 @@ max-width: 23px;
     font-size: 24px;
   }
   .training-button-info{
-    width: 406px;
+    width: 444px;
   }
   .card-timeline{
     font-size: 12px;
@@ -1248,17 +1248,17 @@ max-width: 23px;
     display: unset;
 }
 .distribution-main{
-  max-width: 425px;
+  max-width: 464px;
 }
 .agreement{
   margin-left: unset;
   padding-bottom: 40px;
 }
 .submit-phone{
-  width: 405px;
+  width: 444px;
 }
 .submit-phone:hover{
-  width: 405px;
+  width: 444px;
 }
 .email{
   width: 100%;
@@ -1267,7 +1267,7 @@ max-width: 23px;
   padding-bottom: 19px;
 }
 .agreement-submit-text{
-  margin-left: -111px;
+  margin-left: -153px;
 }
 .footer-about-company h2{
   font-size: 26px;
@@ -1276,7 +1276,7 @@ max-width: 23px;
 font-size: 16px;
 }
 .submit-training{
-  width: 405px;
+  width: 444px;
 }
 .footer-about-virtues{
   display: flex;
@@ -1284,7 +1284,7 @@ font-size: 16px;
   gap: 40px;
 }
 footer{
-  max-width: 425px;
+  max-width: 464px;
 }
 .footer-nav-content{
   flex-direction: column;
@@ -1315,6 +1315,43 @@ height: 30px;
 }
 .footer-content{
   margin-bottom: 0px;
+}
+}
+@media (max-width:426px) {
+  .container{
+    max-width: 425px;
+  }
+  .timetable-name{
+    width: 347px;
+  }
+  .training-girl img{
+    max-width: 350px;
+  }
+  .background-gradient{
+    width: 403px;
+    height: 209px;
+    left: 0%;
+  }
+  .training-button-info{
+    width: 406px;
+  }
+.distribution-main{
+  max-width: 425px;
+}
+.submit-phone{
+  width: 405px;
+}
+.submit-phone:hover{
+  width: 405px;
+}
+.agreement-submit-text{
+  margin-left: -111px;
+}
+.submit-training{
+  width: 405px;
+}
+footer{
+  max-width: 425px;
 }
 }
 @media (max-width:376px) {
