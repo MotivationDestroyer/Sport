@@ -1073,7 +1073,6 @@ margin-right: -17px;
   width: 382px;
 }
 .submit-email:hover {
- 
   width: 382px;
 }
 .agreement{
@@ -1099,7 +1098,6 @@ margin-bottom: 18px;
   max-width: 100%;
 }
 }
-  
 @media (max-width:713px) {
   .footer-trainer{
     max-width: 40%;
@@ -1223,7 +1221,7 @@ max-width: 23px;
     font-size: 24px;
   }
   .training-button-info{
-    width: 444px;
+    width: 96vw;
   }
   .card-timeline{
     font-size: 12px;
@@ -1255,10 +1253,10 @@ max-width: 23px;
   padding-bottom: 40px;
 }
 .submit-phone{
-  width: 444px;
+  width: 96vw;
 }
 .submit-phone:hover{
-  width: 444px;
+  width: 96vw;
 }
 .email{
   width: 100%;
@@ -1276,7 +1274,7 @@ max-width: 23px;
 font-size: 16px;
 }
 .submit-training{
-  width: 444px;
+  width: 96vw;
 }
 .footer-about-virtues{
   display: flex;
@@ -1345,7 +1343,7 @@ height: 30px;
   width: 405px;
 }
 .agreement-submit-text{
-  margin-left: -111px;
+  margin-left: -63px;
 }
 .submit-training{
   width: 405px;
