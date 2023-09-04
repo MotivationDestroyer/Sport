@@ -1112,8 +1112,7 @@ margin-bottom: 18px;
   }
   
 }
-
-@media (max-width:376px) {
+@media (max-width:426px) {
   .main-container{
     margin-bottom: 128px;
   }
@@ -1121,7 +1120,7 @@ margin-bottom: 18px;
     width: 29px;
   }
   .container{
-    max-width: 375px;
+    max-width: 425px;
   }
   .modal{
     max-width: 100%;
@@ -1145,7 +1144,7 @@ margin-bottom: 18px;
     max-width: 350px;
   }
   .background-gradient{
-    width: 339px;
+    width: 403px;
     height: 209px;
     left: 0%;
   }
@@ -1224,7 +1223,7 @@ max-width: 23px;
     font-size: 24px;
   }
   .training-button-info{
-    width: 350px;
+    width: 406px;
   }
   .card-timeline{
     font-size: 12px;
@@ -1249,14 +1248,17 @@ max-width: 23px;
     display: unset;
 }
 .distribution-main{
-  max-width: 370px;
+  max-width: 425px;
 }
 .agreement{
   margin-left: unset;
   padding-bottom: 40px;
 }
 .submit-phone{
-  max-width: 350px;
+  width: 405px;
+}
+.submit-phone:hover{
+  width: 405px;
 }
 .email{
   width: 100%;
@@ -1265,7 +1267,7 @@ max-width: 23px;
   padding-bottom: 19px;
 }
 .agreement-submit-text{
-  margin-left: -51px;
+  margin-left: -111px;
 }
 .footer-about-company h2{
   font-size: 26px;
@@ -1274,7 +1276,7 @@ max-width: 23px;
 font-size: 16px;
 }
 .submit-training{
-  width: 350px;
+  width: 405px;
 }
 .footer-about-virtues{
   display: flex;
@@ -1282,7 +1284,7 @@ font-size: 16px;
   gap: 40px;
 }
 footer{
-  max-width: 375px;
+  max-width: 425px;
 }
 .footer-nav-content{
   flex-direction: column;
@@ -1314,6 +1316,50 @@ height: 30px;
 .footer-content{
   margin-bottom: 0px;
 }
+}
+@media (max-width:376px) {
+  .container{
+    max-width: 375px;
+  }
+
+  .training-girl{
+    margin-top: 21px;
+    margin-left: unset;
+    transform: unset;
+    max-width: 100%;
+  }
+  .timetable-name{
+    width: 347px;
+  }
+  .training-girl img{
+    max-width: 350px;
+  }
+  .background-gradient{
+    width: 339px;
+    height: 209px;
+    left: 0%;
+  }
+  .training-button-info{
+    width: 350px;
+  }
+  .card-timeline{
+    font-size: 12px;
+    margin-top: 20px;
+    margin-left: 20px;
+  }
+.distribution-main{
+  max-width: 370px;
+}
+.submit-phone{
+  max-width: 350px;
+}
+.submit-training{
+  width: 350px;
+}
+footer{
+  max-width: 375px;
+}
+}
 @media (max-width:361px){
   .container{
     max-width: 360px;
@@ -1330,8 +1376,6 @@ height: 30px;
   footer{
     max-width: 360px;
   }
-}
-.header-nav-content{padding-left: 10px;}
 }
 @media (max-width:321px) {
   .training-text h1{
