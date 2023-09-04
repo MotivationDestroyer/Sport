@@ -795,6 +795,34 @@ display: none;
     width: 358px;
   }
 }
+@media (max-width:1025px) {
+  .container{
+    max-width: 1024px;
+  }
+  .training-girl img{
+max-width: 100%;
+ /*под вопросом*/
+  }
+  .training-girl{
+     /*под вопросом*/
+    transform: translate(-30%, 4px);
+  }
+  .background-gradient{
+    width: 362px;
+    height: 635px;
+    left: 31%;
+  }
+  .card{
+    width: 321.322px;
+  }
+  .footer-about-virtues{
+    flex-wrap: wrap;
+  }
+  .footer-trainer{
+    width: 521px;
+    height: 287px;
+  }
+}
 @media (max-width: 1001px) {
   .header-modal{
     display: block;
@@ -841,6 +869,7 @@ font-size: 12px;
     width: 255px;
   }
   .training-girl{
+    transform: translate(-78%, 4px); /*под вопросом*/
     max-width: 55%;
     margin-top: 41px;
     margin-left: 16vw;
