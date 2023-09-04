@@ -674,6 +674,9 @@ footer {
   display: flex;
   justify-content: space-between;
 }
+.footer-end a{
+  color: #2B3541;
+}
 .footer-end span {
   opacity: 0.3;
   color: #2b3541;
