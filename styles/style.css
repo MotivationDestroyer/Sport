@@ -157,8 +157,7 @@ ul li:hover::after {
 }
 .training-girl {
   position: relative;
-  transform: translate(-78%, 4px);
-/* transform: translate(-35%, -3px); */
+ transform: translate(-35%, -3px);
 }
 .background-gradient{
   position: absolute;
@@ -169,10 +168,7 @@ ul li:hover::after {
   bottom: 4px;
   left: 79%;
 }
-.training-girl img{
-  max-width: 200%;
-  position: relative;
-}
+
 .event-container {
   margin-right: 390px;
   margin-left: 390px;
@@ -781,14 +777,14 @@ display: none;
 }
 @media (max-width: 1600px) {
   .training-girl{
-     max-width: 200%;
-     margin-top: 30px;
+    max-width: 200%;
+    margin-top: 30px;
   }
 }
 @media (max-width: 1120px) {
   .training-girl{
-     max-width: 150%;
-     margin-top: 100px;
+    max-width: 150%;
+    margin-top: 100px;
   }
   .training-text h1{
     font-size: 26px;
@@ -803,18 +799,15 @@ display: none;
     max-width: 1024px;
     margin: 0 10px;
   }
-  .training-girl img{
-max-width: 100%;
- /*под вопросом*/
-  }
-  .training-girl{
-     /*под вопросом*/
-    transform: translate(-30%, 4px);
-  }
   .background-gradient{
     width: 362px;
     height: 635px;
     left: 31%;
+  }
+  .training-girl{
+    margin-top: 87px;
+    margin-left: 4vw;
+    max-width: 68%;
   }
   .card{
     width: 321.322px;
@@ -873,7 +866,6 @@ font-size: 12px;
     width: 255px;
   }
   .training-girl{
-    transform: translate(-78%, 4px); /*под вопросом*/
     max-width: 55%;
     margin-top: 41px;
     margin-left: 16vw;
@@ -1032,11 +1024,8 @@ font-size: 16px;
   bottom: 0;
  }
  .training-girl{
-  margin-top: 101px;
-  margin-left: 299px;
- }
- .training-girl img{
-  max-width: 399px;
+  margin-top: 87px;
+  margin-left: 4vw;
  }
  .background-gradient{
     width: 357px;
@@ -1137,9 +1126,6 @@ margin-bottom: 18px;
   }
   .timetable-name{
     width: 347px;
-  }
-  .training-girl img{
-    max-width: 400px;
   }
   .background-gradient{
     width: 444px;
@@ -1322,9 +1308,6 @@ height: 30px;
   .timetable-name{
     width: 347px;
   }
-  .training-girl img{
-    max-width: 350px;
-  }
   .background-gradient{
     width: 403px;
     height: 209px;
@@ -1365,9 +1348,6 @@ footer{
   }
   .timetable-name{
     width: 347px;
-  }
-  .training-girl img{
-    max-width: 350px;
   }
   .background-gradient{
     width: 339px;
@@ -1426,9 +1406,6 @@ footer{
   .training-button-info{
     width: 300px;
     font-size: 14px;
-  }
-  .training-girl img{
-max-width: 294px;
   }
   .background-gradient{
     width: 294px;
