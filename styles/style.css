@@ -658,7 +658,6 @@ footer {
 }
 .footer-nav-content {
   display: flex;
-  gap: 72px;
 }
 .footer-content {
   display: flex;
@@ -777,7 +776,7 @@ display: none;
 }
 @media (max-width: 1600px) {
   .training-girl{
-    max-width: 200%;
+    max-width: 56vw;
     margin-top: 30px;
   }
 }
@@ -874,7 +873,6 @@ font-size: 12px;
 width: 80px;
   }
   .training-slider{
-    position: none;
     bottom: -80px;
   }
   .training-slider img{
@@ -1020,9 +1018,9 @@ font-size: 16px;
     grid-row: 3/4;
     height: 224px;
   }
- .training-slider{
-  bottom: 0;
- }
+.footer-about-virtues{
+  gap: 30px;
+}
  .training-girl{
   margin-top: 87px;
   margin-left: 4vw;
@@ -1097,7 +1095,9 @@ margin-bottom: 18px;
     margin-top: 91px;
     margin-left: -6vw;
   }
-  
+  .footer-about-virtues{
+    gap: 10px;
+  }
 }
 @media (max-width:464px){
   .main-container{
