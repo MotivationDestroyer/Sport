@@ -9,7 +9,7 @@ main {
 header {
   margin-bottom: 15px;
 }
-.container{
+.container {
   max-width: 1140px;
   margin: 0 auto;
 }
@@ -57,7 +57,7 @@ nav ul li::after {
   background: #2b3541;
   border-radius: 1px;
   display: block;
-  transition: .6s;
+  transition: 0.6s;
   background: transparent;
 }
 ul li:hover::after {
@@ -67,27 +67,27 @@ ul li:hover::after {
   display: flex;
   gap: 30px;
 }
-.social-inst{
+.social-inst {
   background-image: url(../images/icons/IN.svg);
 }
-.social-fb{
+.social-fb {
   background-image: url(../images/icons/FB.svg);
 }
 
-.social-element{
-    display: block;
-    width: 30px;
-    height: 30px;
-    transform: scale(1);
-    transition: .3s;
-    background-size: contain;
+.social-element {
+  display: block;
+  width: 30px;
+  height: 30px;
+  transform: scale(1);
+  transition: 0.3s;
+  background-size: contain;
 }
-.social-element:hover{
+.social-element:hover {
   transform: scale(1.5);
   opacity: 1;
   background-size: contain;
 }
-.social-ul{
+.social-ul {
   display: flex;
   position: relative;
   justify-content: space-between;
@@ -146,7 +146,7 @@ ul li:hover::after {
 .training-button-info:hover {
   background-color: #2b3541;
   color: #fbf138;
-  transition: .3s;
+  transition: 0.3s;
   box-shadow: 0px 13px 24px rgba(70, 86, 106, 0.2);
   cursor: pointer;
 }
@@ -162,14 +162,18 @@ ul li:hover::after {
 }
 .training-girl {
   position: relative;
- transform: translate(-35%, -3px);
+  transform: translate(-35%, -3px);
 }
-.background-gradient{
+.background-gradient {
   position: absolute;
   width: 400px;
   height: 772px;
   opacity: 0.2;
-  background: linear-gradient(90deg, #FBF138 0%, rgba(253, 249, 182, 0.45) 145.23%);
+  background: linear-gradient(
+    90deg,
+    #fbf138 0%,
+    rgba(253, 249, 182, 0.45) 145.23%
+  );
   bottom: 4px;
   left: 79%;
 }
@@ -224,26 +228,32 @@ ul li:hover::after {
 }
 .card-background-maraphon {
   background-image: url(../images/no1.png);
-
 }
 .card-background-vebinar {
   background-image: url(../images/vebinar.png);
-
 }
 .card-background-yoga {
   background-image: url(../images/Yoga.png);
-
 }
 .card-gradient {
-background: linear-gradient(180deg, rgba(251, 241, 56, .3) 0%, rgba(253, 249, 182, 0) 100%);
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    top: 0;
+  background: linear-gradient(
+    180deg,
+    rgba(251, 241, 56, 0.3) 0%,
+    rgba(253, 249, 182, 0) 100%
+  );
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
 }
 
 .card-gradient:hover {
-  background: linear-gradient(180deg, #FBF138 0%, rgba(251, 242, 64, 0.94) 0%, rgba(253, 249, 182, 0.00) 60%);
+  background: linear-gradient(
+    180deg,
+    #fbf138 0%,
+    rgba(251, 242, 64, 0.94) 0%,
+    rgba(253, 249, 182, 0) 60%
+  );
 }
 .event-main-text {
   color: #2b3541;
@@ -253,7 +263,7 @@ background: linear-gradient(180deg, rgba(251, 241, 56, .3) 0%, rgba(253, 249, 18
   display: inline-block;
 }
 .card-timeline {
-  color: #2B3541;
+  color: #2b3541;
   font-size: 18px;
   font-weight: 700;
   line-height: 150%;
@@ -262,7 +272,7 @@ background: linear-gradient(180deg, rgba(251, 241, 56, .3) 0%, rgba(253, 249, 18
   margin-left: 30px;
 }
 .card-event-name {
-  color: #2B3541;
+  color: #2b3541;
   font-size: 28px;
   font-weight: 700;
   line-height: 125%;
@@ -284,14 +294,14 @@ background: linear-gradient(180deg, rgba(251, 241, 56, .3) 0%, rgba(253, 249, 18
   border: none;
   padding: 11px 20px;
 }
-.card-add{
+.card-add {
   position: absolute;
   width: 30px;
-height: 30px;
-background: var(--dark, #2B3541);
-bottom: 0;
-right: 0;
-display: none;
+  height: 30px;
+  background: var(--dark, #2b3541);
+  bottom: 0;
+  right: 0;
+  display: none;
 }
 .timetable-container {
   position: relative;
@@ -364,8 +374,12 @@ display: none;
 Убрал из-за ненадобности Change-1
 + Добавил градиент при наведении на блок(код строчкой ниже)
 */
-.workout-element:hover{
-  background: linear-gradient( 180deg, #fbf138 0%, rgba(253, 249, 182, 0.45) 100% );
+.workout-element:hover {
+  background: linear-gradient(
+    180deg,
+    #fbf138 0%,
+    rgba(253, 249, 182, 0.45) 100%
+  );
 }
 .workout-element h3 {
   font-size: 18px;
@@ -408,8 +422,8 @@ display: none;
   grid-column: 3/4;
   grid-row: 2/5;
 }
-.pre-distribution-container{
-  background: #F3F3F3;
+.pre-distribution-container {
+  background: #f3f3f3;
   margin-bottom: 160px;
 }
 .distribution {
@@ -423,10 +437,13 @@ display: none;
   position: relative;
 }
 .distribution-main h3 {
-  margin: 0;
+  display: inline-block;
+  position: relative;
+  z-index: 1;
   padding-top: 80px;
-  color: #2b3541;
+  margin-top: 0;
   margin-bottom: 40px;
+  color: #2b3541;
   font-size: 40px;
   font-weight: 700;
   line-height: normal;
@@ -438,18 +455,29 @@ display: none;
   height: 50px;
   background: #fbf138;
   border-radius: 100%;
-  display: inline-block;
-  margin-right: -28px;
-  margin-bottom: 12px;
+  display: block;
+  position: absolute;
+  z-index: -1;
+  bottom: 19px;
+  left: -28px;
 }
 .distribution-main-box {
   display: flex;
   gap: 20px;
   justify-content: center;
+  max-width: 617px;
+  margin: 0 auto;
 }
-.container-pre-footer{
+.container-pre-footer {
   position: relative;
 }
+/*
+Change-1
+В классе, ниже, добавил border.
+Сделал это для  избежания "подпрыгивания" email, после действия focus.
+Удалил у email и submit-email width + подправил эти блоки.
+flex-basis выставил 315px
+*/
 .email {
   outline: none;
   padding: 21px 68px 18px 39px;
@@ -457,7 +485,8 @@ display: none;
   font-size: 18px;
   line-height: 150%;
   color: rgba(43, 53, 65, 1);
-  width: 272px;
+  border: 1px solid #fff;
+  flex-basis: calc(100% - 315px);
 }
 .email:focus {
   border: 1px solid #fbf138;
@@ -469,7 +498,7 @@ display: none;
   background-color: #fbf138;
   box-shadow: 0px 13px 24px rgba(251, 241, 56, 0.3);
   display: block;
-  width: 225px;
+  flex-basis: 225px;
   font-weight: 700;
   text-transform: uppercase;
   font-size: 16px;
@@ -478,6 +507,7 @@ display: none;
   text-decoration: none;
   text-align: center;
   transition: 0.3s;
+  padding: 0;
 }
 .submit-email:hover {
   color: var(--yellow, #fbf138);
@@ -515,6 +545,9 @@ display: none;
 .checkbox:checked {
   position: absolute;
   left: -9999px;
+}
+label {
+  color: var(--dark, #2b3541);
 }
 .checkbox:checked + label,
 .checkbox:not(:checked) + label {
@@ -669,6 +702,7 @@ footer {
 }
 .footer-nav-content {
   display: flex;
+  gap: 72px;
 }
 .footer-content {
   display: flex;
@@ -680,8 +714,8 @@ footer {
   display: flex;
   justify-content: space-between;
 }
-.footer-end a{
-  color: #2B3541;
+.footer-end a {
+  color: #2b3541;
 }
 .footer-end span {
   opacity: 0.3;
@@ -691,12 +725,13 @@ footer {
   line-height: 150%;
 }
 
-.social-email{
+.social-email {
   color: var(--dark, #2b3541);
   font-size: 16px;
   font-weight: 700;
   line-height: 150%;
   margin: auto 0;
+  text-decoration: none;
 }
 .social-email::before {
   content: "";
@@ -708,15 +743,15 @@ footer {
   margin-right: -10px;
   margin-bottom: 3px;
 }
-.submit-phone{
+.submit-phone {
   display: none;
 }
-.header-modal{
-display: block;
-margin: auto;
-display: none;
+.header-modal {
+  display: block;
+  margin: auto;
+  display: none;
 }
-.modal-open{
+.modal-open {
   width: 34px;
   height: 22px;
   background-image: url(../images/icons/modal.svg);
@@ -726,11 +761,11 @@ display: none;
   border: none;
   cursor: pointer;
 }
-.modal{
+.modal {
   top: -400px;
   max-width: 587px;
   height: 331px;
-  background-color: #F3F3F3;
+  background-color: #f3f3f3;
   position: absolute;
   left: 0;
   right: 0;
@@ -739,45 +774,45 @@ display: none;
   padding: 29px 10px;
   box-sizing: border-box;
 }
-.modal-nav{
+.modal-nav {
   list-style-type: none;
-    padding-left: 0px;
-    margin-top: 30px;
-    display: flex;
-    flex-direction: column;
-    gap: 0;
+  padding-left: 0px;
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 0;
 }
-.modal-nav a{
+.modal-nav a {
   font-weight: 400;
   font-size: 16px;
-  color: #2B3541;
+  color: #2b3541;
   text-decoration: none;
   line-height: 3;
   line-break: auto;
 }
-.modal-nav li::after{
+.modal-nav li::after {
   content: "";
-    height: 1px;
-    background: #2B3541;
-    border-radius: 1px;
-    display: block;
-    opacity: 100%;
-    margin: 10px 0;
+  height: 1px;
+  background: #2b3541;
+  border-radius: 1px;
+  display: block;
+  opacity: 100%;
+  margin: 10px 0;
 }
-.modal-close{
+.modal-close {
   width: 20px;
-    height: 19px;
-    background-color: transparent;
-    background-image: url(../images/icons/close.svg);
-    background-repeat: no-repeat;
-    background-size: contain;
-    border: none;
-    cursor: pointer;
-    position: absolute;
-    top: 30px;
-    right: 20px;
+  height: 19px;
+  background-color: transparent;
+  background-image: url(../images/icons/close.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  border: none;
+  cursor: pointer;
+  position: absolute;
+  top: 30px;
+  right: 20px;
 }
-.modal-social{
+.modal-social {
   position: absolute;
   display: flex;
   gap: 20px;
@@ -786,17 +821,17 @@ display: none;
   margin-top: 20px;
 }
 @media (max-width: 1600px) {
-  .training-girl{
+  .training-girl {
     max-width: 56vw;
     margin-top: 30px;
   }
 }
 @media (max-width: 1120px) {
-  .training-girl{
+  .training-girl {
     max-width: 150%;
     margin-top: 100px;
   }
-  .training-text h1{
+  .training-text h1 {
     font-size: 26px;
     line-height: 125%;
     letter-spacing: 0.78px;
@@ -804,368 +839,365 @@ display: none;
     width: 358px;
   }
 }
-@media (max-width:1025px) {
-  .container{
+@media (max-width: 1025px) {
+  .container {
     max-width: 1024px;
     margin: 0 10px;
   }
-  .background-gradient{
+  .background-gradient {
     width: 362px;
     height: 635px;
     left: 31%;
   }
-  .training-girl{
+  .training-girl {
     margin-top: 87px;
     margin-left: 4vw;
     max-width: 68%;
   }
-  .card{
+  .card {
     width: 321.322px;
   }
-  .footer-about-virtues{
+  .footer-about-virtues {
     flex-wrap: wrap;
   }
-  .footer-trainer{
+  .footer-trainer {
     width: 521px;
     height: 287px;
   }
 }
 @media (max-width: 1001px) {
-  .header-modal{
+  .header-modal {
     display: block;
   }
   .header-nav-content {
     gap: 29px;
     padding-left: 15px;
-}
-  .header-nav-content nav{
+  }
+  .header-nav-content nav {
     display: none;
   }
-  .footer-ul a{
-font-size: 12px;
+  .footer-ul a {
+    font-size: 12px;
   }
-  .social-ul{
+  .social-ul {
     gap: 19px;
   }
-  .social-element{
+  .social-element {
     width: 26px;
     height: 26px;
   }
-  .training-text{
+  .training-text {
     padding-top: 34px;
     padding-left: 10px;
   }
-  .training-number{
+  .training-number {
     font-weight: 300;
     font-size: 26px;
     line-height: 125%;
     letter-spacing: 0.03em;
-    color: #2B3541;
+    color: #2b3541;
     padding-top: 18px;
   }
-  .training-number h2{
+  .training-number h2 {
     font-weight: 300;
     font-size: 26px;
     line-height: 125%;
     letter-spacing: 0.03em;
-    color: #2B3541;
+    color: #2b3541;
   }
-  .training-low-text{
+  .training-low-text {
     font-size: 16px;
     padding-bottom: 4px;
     width: 255px;
   }
-  .training-girl{
+  .training-girl {
     max-width: 55%;
     margin-top: 41px;
     margin-left: 16vw;
   }
-  .header-nav-content img{
-width: 80px;
+  .header-nav-content img {
+    width: 80px;
   }
-  .training-slider{
+  .training-slider {
     bottom: -80px;
   }
-  .training-slider img{
+  .training-slider img {
     width: 52px;
     height: 40px;
   }
-  .events-list{
+  .events-list {
     grid-template-columns: repeat(2, 1fr);
     margin-bottom: 80px;
     gap: 21px;
   }
-  .card{
+  .card {
     width: 100%;
     height: 308px;
   }
-  .card:last-child{
+  .card:last-child {
     grid-column: 1 / 3;
   }
-  .card-participation{
+  .card-participation {
     display: none;
   }
-  .card-event-type{
+  .card-event-type {
     right: unset;
     padding: 6px 15px;
     font-size: 12px;
   }
-  .card-background-maraphon{
+  .card-background-maraphon {
     background-image: url(../images/no1.png);
     height: 308px;
     width: 100%;
   }
-  .card-background-vebinar{
+  .card-background-vebinar {
     background-image: url(../images/vebinar.png);
     height: 308px;
     width: 100%;
   }
-  .card-background-yoga{
+  .card-background-yoga {
     background-image: url(../images/no3.jpg);
     height: 308px;
     width: 100%;
   }
-  .card-event-name{
+  .card-event-name {
     font-size: 16px;
     width: 182px;
   }
-  .card-add{
+  .card-add {
     display: unset;
   }
-  .footer-trainer{
+  .footer-trainer {
     width: 372.85px;
-height: 227px;
+    height: 227px;
     background-repeat: no-repeat;
-  background-size: contain;
+    background-size: contain;
   }
-  .footer-nav-content{
+  .footer-nav-content {
     justify-content: space-between;
-
   }
-  .footer-nav-content li{
+  .footer-nav-content li {
     font-size: 12px;
   }
-  .footer-about-company{
+  .footer-about-company {
     font-size: 16px;
     max-width: 321px;
   }
-  .footer-about-virtues{
+  .footer-about-virtues {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     font-size: 16px;
     margin-top: 60px;
   }
-  .footer-content{
+  .footer-content {
     display: block;
   }
-  .footer-container{
+  .footer-container {
     height: 280px;
   }
-  .social{
+  .social {
     justify-content: end;
-
   }
-  .social-email{
+  .social-email {
     padding-bottom: 12px;
     font-size: 12px;
   }
-  .social-footer{
+  .social-footer {
     padding-top: 35px;
   }
-  .footer-about-virtues-element span{
-font-size: 16px;
-  }
-  .footer-about-virtues-element h3{
+  .footer-about-virtues-element span {
     font-size: 16px;
   }
-  .container{
+  .footer-about-virtues-element h3 {
+    font-size: 16px;
+  }
+  .container {
     margin-left: 10px;
     margin-right: 10px;
   }
 }
-@media (max-width:769px) {
-
-  .event-main-text{
+@media (max-width: 769px) {
+  .event-main-text {
     font-size: 26px;
   }
-  .timetable-name{
+  .timetable-name {
     font-size: 26px;
   }
-  .timetable-date{
+  .timetable-date {
     font-size: 16px;
   }
-  .distribution-main-text{
+  .distribution-main-text {
     margin-bottom: 51px;
   }
-  .timetable-container-workout{
+  .timetable-container-workout {
     grid-template-columns: repeat(2, 1fr) auto;
     grid-template-rows: 240px 224px auto;
   }
-  .workout-element:nth-child(1){
+  .workout-element:nth-child(1) {
     height: 224px;
   }
-  .workout-element:nth-child(2){
+  .workout-element:nth-child(2) {
     grid-column: 1/2;
     grid-row: 2/2;
     height: 224px;
   }
-  .workout-element:nth-child(3){
+  .workout-element:nth-child(3) {
     grid-column: 1/2;
     grid-row: 3/3;
     height: 224px;
   }
-  .workout-element:nth-child(4){
+  .workout-element:nth-child(4) {
     grid-column: 2/3;
     grid-row: 1/3;
     height: 224px;
     opacity: 0.7;
   }
-  .workout-element:nth-child(5){
+  .workout-element:nth-child(5) {
     grid-row: 2/3;
     height: 224px;
   }
-  .workout-element:nth-child(6){
+  .workout-element:nth-child(6) {
     grid-column: 2/3;
     grid-row: 3/4;
     height: 224px;
   }
-.footer-about-virtues{
-  gap: 30px;
-}
- .training-girl{
-  margin-top: 87px;
-  margin-left: 4vw;
- }
- .background-gradient{
+  .footer-about-virtues {
+    gap: 30px;
+  }
+  .training-girl {
+    margin-top: 87px;
+    margin-left: 4vw;
+  }
+  .background-gradient {
     width: 357px;
     height: 426px;
     left: 10%;
- }
-  .distribution-main-text h3{
-    color: var(--dark, #2B3541);
+  }
+  .distribution-main-text h3 {
+    color: var(--dark, #2b3541);
     font-size: 26px;
     font-weight: 700;
     width: 237px;
     padding-top: 57px;
     margin: 0 auto;
   }
-  .distribution-main h3::before{
+  .distribution-main h3::before {
     width: 31px;
-height: 31px;
-margin-right: -17px;
+    height: 31px;
+    margin-right: -17px;
     margin-bottom: 6px;
     margin-left: -13px;
   }
-.distribution-main{
-  display: grid;
-  grid-template-columns: repeat(1, 1fr);
-}
-.submit-email{
-  display: none;
-}
-.submit-phone{
-  display: unset;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  margin-top: 30px;
-  width: 382px;
-}
-.submit-email:hover {
-  width: 382px;
-}
-.agreement{
-  margin: 0 auto;
+  .distribution-main {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .submit-email {
+    display: none;
+  }
+  .submit-phone {
+    display: unset;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 30px;
+    width: 382px;
+  }
+  .submit-email:hover {
+    width: 382px;
+  }
+  .agreement {
+    margin: 0 auto;
     margin-top: 10px;
     display: flex;
     flex-direction: column;
+  }
+  .agreement-submit-text {
+    margin-left: -89px;
+  }
+  .workout-element h3 {
+    font-size: 16px;
+  }
+  .workout-element h4 {
+    font-size: 16px;
+  }
+  .workout-element.workout-element:nth-child(4) h3 {
+    margin-top: 31px;
+    margin-bottom: 18px;
+  }
+  .modal {
+    max-width: 100%;
+  }
 }
-.agreement-submit-text{
-  margin-left: -89px;
-}
-.workout-element h3{
-  font-size: 16px;
-}
-.workout-element h4{
-  font-size: 16px;
-} 
-.workout-element.workout-element:nth-child(4) h3{
-  margin-top: 31px;
-margin-bottom: 18px;
-}
-.modal{
-  max-width: 100%;
-}
-}
-@media (max-width:713px) {
-  .footer-trainer{
+@media (max-width: 713px) {
+  .footer-trainer {
     max-width: 40%;
   }
 }
-@media (max-width:632px) {
-  .training-girl{
+@media (max-width: 632px) {
+  .training-girl {
     margin-top: 91px;
     margin-left: -6vw;
   }
-  .footer-about-virtues{
+  .footer-about-virtues {
     gap: 10px;
   }
 }
-@media (max-width:464px){
-  .main-container{
+@media (max-width: 464px) {
+  .main-container {
     margin-bottom: 128px;
   }
-  .modal-open{
+  .modal-open {
     width: 29px;
   }
-  .container{
+  .container {
     max-width: 464px;
   }
-  .modal{
+  .modal {
     max-width: 100%;
   }
-  .training-slider{
+  .training-slider {
     display: none;
   }
-  .main-container{
+  .main-container {
     flex-direction: column;
   }
-  .training-girl{
+  .training-girl {
     margin-top: 21px;
     margin-left: unset;
     transform: unset;
     max-width: 100%;
   }
-  .timetable-name{
+  .timetable-name {
     width: 347px;
   }
-  .background-gradient{
+  .background-gradient {
     width: 444px;
     height: 258px;
     left: 0%;
   }
-  .footer-trainer{
+  .footer-trainer {
     display: none;
   }
-  .timetable-container-workout{
+  .timetable-container-workout {
     display: flex;
     flex-direction: column;
   }
-  .workout-element{
+  .workout-element {
     position: relative;
   }
-  .workout-element:nth-child(1){
+  .workout-element:nth-child(1) {
     width: 100%;
     height: 114px;
   }
-  .workout-element:nth-child(2){
+  .workout-element:nth-child(2) {
     width: 100%;
     height: 114px;
   }
-  .workout-element:nth-child(3){
+  .workout-element:nth-child(3) {
     width: 100%;
     height: 114px;
   }
-  .workout-element:nth-child(4){
+  .workout-element:nth-child(4) {
     width: 100%;
     height: 114px;
     background: unset;
@@ -1173,264 +1205,265 @@ margin-bottom: 18px;
     border: 1px solid var(--dark, #2b3541);
     opacity: 1;
   }
-  .workout-element:nth-child(5){
+  .workout-element:nth-child(5) {
     width: 100%;
     height: 114px;
   }
-  .workout-element:nth-child(6){
+  .workout-element:nth-child(6) {
     width: 100%;
     height: 114px;
   }
-  .workout-element-lowblock img{
-max-width: 39px;
+  .workout-element-lowblock img {
+    max-width: 39px;
   }
-  .workout-element:nth-child(2) img{
-max-width: 23px;
+  .workout-element:nth-child(2) img {
+    max-width: 23px;
   }
-  .workout-element:nth-child(4) img{
+  .workout-element:nth-child(4) img {
     max-width: 34px;
   }
-  .workout-element-lowblock{
+  .workout-element-lowblock {
     display: flex;
     margin-left: 20px;
   }
-  .workout-element-lowblock img{
+  .workout-element-lowblock img {
     position: absolute;
     left: 20px;
     bottom: 20px;
   }
-  .workout-element-lowblock h3{
+  .workout-element-lowblock h3 {
     margin-left: 50px;
     margin-top: unset;
   }
-  .social{
+  .social {
     position: absolute;
     right: 0;
   }
-  .social-ul{
+  .social-ul {
     margin: unset;
   }
-  .training-text{
+  .training-text {
     padding-left: 0;
   }
-  .training-text h1{
+  .training-text h1 {
     max-width: 350px;
     font-size: 24px;
   }
-  .training-button-info{
+  .training-button-info {
     width: 96vw;
   }
-  .card-timeline{
+  .card-timeline {
     font-size: 12px;
     margin-top: 20px;
     margin-left: 20px;
   }
-  .events-list{
+  .events-list {
     gap: 10px;
   }
-  .card-event-name{
+  .card-event-name {
     font-size: 16px;
     width: 117px;
     padding-left: 19px;
     padding-top: 16px;
   }
-  .card-background-yoga{
+  .card-background-yoga {
     background-position-x: right;
   }
   .distribution-main-box {
     gap: unset;
     justify-content: unset;
     display: unset;
-}
-.distribution-main{
-  max-width: 464px;
-}
-.agreement{
-  margin-left: unset;
-  padding-bottom: 40px;
-}
-.submit-phone{
-  width: 96vw;
-}
-.submit-phone:hover{
-  width: 96vw;
-}
-.email{
-  width: 100%;
-  padding: 0;
-  padding-top: 19px;
-  padding-bottom: 19px;
-}
-.agreement-submit-text{
-  margin-left: -153px;
-}
-.footer-about-company h2{
-  font-size: 26px;
-}
-.footer-about-company span{
-font-size: 16px;
-}
-.submit-training{
-  width: 96vw;
-}
-.footer-about-virtues{
-  display: flex;
-  flex-direction: column;
-  gap: 40px;
-}
-footer{
-  max-width: 464px;
-}
-.footer-nav-content{
-  flex-direction: column;
-  gap: 40px;
-  align-items: center;
-}
-.footer-nav-content img{
-  width: 97px;
-height: 30px;
-}
-.social-footer{
-  padding-top: 0;
-}
-.social-footer-content{
+  }
+  .distribution-main {
+    max-width: 464px;
+  }
+  .agreement {
+    margin-left: unset;
+    padding-bottom: 40px;
+  }
+  .submit-phone {
+    width: 96vw;
+  }
+  .submit-phone:hover {
+    width: 96vw;
+  }
+  .email {
+    width: 100%;
+    padding: 0;
+    padding-top: 19px;
+    padding-bottom: 19px;
+  }
+  .agreement-submit-text {
+    margin-left: -153px;
+  }
+  .footer-about-company h2 {
+    font-size: 26px;
+  }
+  .footer-about-company span {
+    font-size: 16px;
+  }
+  .submit-training {
+    width: 96vw;
+  }
+  .footer-about-virtues {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+  }
+  footer {
+    max-width: 464px;
+  }
+  .footer-nav-content {
+    flex-direction: column;
+    gap: 40px;
+    align-items: center;
+  }
+  .footer-nav-content img {
+    width: 97px;
+    height: 30px;
+  }
+  .social-footer {
+    padding-top: 0;
+  }
+  .social-footer-content {
     position: unset;
     justify-content: space-between;
+  }
+  .footer-end {
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    padding-top: 10px;
+  }
+  .footer-end span {
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 150%;
+  }
+  .footer-content {
+    margin-bottom: 0px;
+  }
 }
-.footer-end{
-  flex-direction: column;
-  align-items: center;
-  gap: 5px;
-  padding-top: 10px;
-}
-.footer-end span{
-  font-size: 10px;
-  font-weight: 400;
-  line-height: 150%;
-}
-.footer-content{
-  margin-bottom: 0px;
-}
-}
-@media (max-width:426px) {
-  .container{
+@media (max-width: 426px) {
+  .container {
     max-width: 425px;
   }
-  .timetable-name{
+  .timetable-name {
     width: 347px;
   }
-  .background-gradient{
+  .background-gradient {
     width: 403px;
     height: 209px;
     left: 0%;
   }
-  .training-button-info{
+  .training-button-info {
     width: 406px;
   }
-.distribution-main{
-  max-width: 425px;
+  .distribution-main {
+    max-width: 425px;
+  }
+  .submit-phone {
+    width: 405px;
+  }
+  .submit-phone:hover {
+    width: 405px;
+  }
+  .agreement-submit-text {
+    margin-left: -63px;
+  }
+  .submit-training {
+    width: 405px;
+  }
+  footer {
+    max-width: 425px;
+  }
 }
-.submit-phone{
-  width: 405px;
-}
-.submit-phone:hover{
-  width: 405px;
-}
-.agreement-submit-text{
-  margin-left: -63px;
-}
-.submit-training{
-  width: 405px;
-}
-footer{
-  max-width: 425px;
-}
-}
-@media (max-width:376px) {
-  .container{
+@media (max-width: 376px) {
+  .container {
     max-width: 375px;
   }
 
-  .training-girl{
+  .training-girl {
     margin-top: 21px;
     margin-left: unset;
     transform: unset;
     max-width: 100%;
   }
-  .timetable-name{
+  .timetable-name {
     width: 347px;
   }
-  .background-gradient{
+  .background-gradient {
     width: 339px;
     height: 209px;
     left: 0%;
   }
-  .training-button-info{
+  .training-button-info {
     width: 350px;
   }
-  .card-timeline{
+  .card-timeline {
     font-size: 12px;
     margin-top: 20px;
     margin-left: 20px;
   }
-.distribution-main{
-  max-width: 370px;
+  .distribution-main {
+    max-width: 370px;
+  }
+  .submit-phone {
+    max-width: 350px;
+  }
+  .submit-training {
+    width: 350px;
+  }
+  footer {
+    max-width: 375px;
+  }
 }
-.submit-phone{
-  max-width: 350px;
-}
-.submit-training{
-  width: 350px;
-}
-footer{
-  max-width: 375px;
-}
-}
-@media (max-width:361px){
-  .container{
+@media (max-width: 361px) {
+  .container {
     max-width: 360px;
   }
-  .training-button-info{
+  .training-button-info {
     width: 340px;
   }
-  .submit-phone{
+  .submit-phone {
     max-width: 340px;
   }
-  .submit-training{
+  .submit-training {
     width: 340px;
   }
-  footer{
+  footer {
     max-width: 360px;
   }
 }
-@media (max-width:321px) {
-  .training-text h1{
+@media (max-width: 321px) {
+  .training-text h1 {
     font-size: 20px;
     width: 295px;
   }
-  .training-number h2{
+  .training-number h2 {
     font-size: 17px;
   }
-  .training-low-text span{
+  .training-low-text span {
     font-size: 18px;
   }
-  .training-button-info{
+  .training-button-info {
     width: 300px;
     font-size: 14px;
   }
-  .background-gradient{
+  .background-gradient {
     width: 294px;
   }
-  .submit-phone, .submit-phone:hover{
+  .submit-phone,
+  .submit-phone:hover {
     width: 300px;
   }
-  .agreement-submit-text{
+  .agreement-submit-text {
     margin-left: -14px;
   }
-  .submit-training{
+  .submit-training {
     width: 300px;
   }
-  .footer-ul{
+  .footer-ul {
     gap: 24px;
   }
 }
