@@ -45,13 +45,19 @@ ul li a {
   font-size: 18px;
   font-weight: 300;
 }
-ul li::after {
+/*
+Change-1
+В блоке, который ниже, добавил nav, чтобы подчеркивание не срабатывало на инконки соц.сетей, у которых при hover появлялась та самая черта.
+Вместо .3s сделал .6s чтобы было более заметнее + на вкус так кажется приятнее)
+*/
+nav ul li::after {
   content: "";
   height: 1px;
   width: 100%;
   background: #2b3541;
   border-radius: 1px;
   display: block;
+  transition: .6s;
   background: transparent;
 }
 ul li:hover::after {
@@ -140,7 +146,9 @@ ul li:hover::after {
 .training-button-info:hover {
   background-color: #2b3541;
   color: #fbf138;
+  transition: .3s;
   box-shadow: 0px 13px 24px rgba(70, 86, 106, 0.2);
+  cursor: pointer;
 }
 .training-slider {
   position: absolute;
@@ -150,9 +158,6 @@ ul li:hover::after {
   left: 0;
 }
 .training-slider:hover {
-  cursor: pointer;
-}
-.training-button-info:hover {
   cursor: pointer;
 }
 .training-girl {
@@ -239,7 +244,6 @@ background: linear-gradient(180deg, rgba(251, 241, 56, .3) 0%, rgba(253, 249, 18
 
 .card-gradient:hover {
   background: linear-gradient(180deg, #FBF138 0%, rgba(251, 242, 64, 0.94) 0%, rgba(253, 249, 182, 0.00) 60%);
-  /* непонятно почему во 2 rgba 0.00 должно быть 0.45, но это не работает на практике, слишком сильная заливка*/
 }
 .event-main-text {
   color: #2b3541;
@@ -353,8 +357,15 @@ display: none;
 .workout-element-lowblock {
   margin-left: 30px;
 }
+/*
 .workout-element-lowblock img:hover {
   transform: scale(1.5);
+}
+Убрал из-за ненадобности Change-1
++ Добавил градиент при наведении на блок(код строчкой ниже)
+*/
+.workout-element:hover{
+  background: linear-gradient( 180deg, #fbf138 0%, rgba(253, 249, 182, 0.45) 100% );
 }
 .workout-element h3 {
   font-size: 18px;
