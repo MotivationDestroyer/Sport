@@ -45,11 +45,6 @@ ul li a {
   font-size: 18px;
   font-weight: 300;
 }
-/*
-Change-1
-В блоке, который ниже, добавил nav, чтобы подчеркивание не срабатывало на инконки соц.сетей, у которых при hover появлялась та самая черта.
-Вместо .3s сделал .6s чтобы было более заметнее + на вкус так кажется приятнее)
-*/
 nav ul li::after {
   content: "";
   height: 1px;
@@ -194,16 +189,33 @@ ul li:hover::after {
   height: 598px;
   position: relative;
 }
-.card-background-maraphon,
-.card-background-vebinar,
-.card-background-yoga {
+.card::before{
+  content: '';
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    180deg,
+    rgba(251, 241, 56, 0.5) 0%,
+    rgba(253, 249, 182, 0) 100%
+  );
+  opacity: .5;
+}
+.card:hover::before{
+  opacity: 1;
+  transition: .3s;
+}
+
+.card-bg {
   width: 100%;
   height: 100%;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  position: relative;
-  padding-top: 1px;
+}
+.card-content{
+  position: absolute;
 }
 .card-participation {
   position: absolute;
@@ -225,35 +237,6 @@ ul li:hover::after {
 }
 .card:hover .card-participation {
   opacity: 1;
-}
-.card-background-maraphon {
-  background-image: url(../images/no1.png);
-}
-.card-background-vebinar {
-  background-image: url(../images/vebinar.png);
-}
-.card-background-yoga {
-  background-image: url(../images/Yoga.png);
-}
-.card-gradient {
-  background: linear-gradient(
-    180deg,
-    rgba(251, 241, 56, 0.3) 0%,
-    rgba(253, 249, 182, 0) 100%
-  );
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  top: 0;
-}
-
-.card-gradient:hover {
-  background: linear-gradient(
-    180deg,
-    #fbf138 0%,
-    rgba(251, 242, 64, 0.94) 0%,
-    rgba(253, 249, 182, 0) 60%
-  );
 }
 .event-main-text {
   color: #2b3541;
@@ -367,13 +350,6 @@ ul li:hover::after {
 .workout-element-lowblock {
   margin-left: 30px;
 }
-/*
-.workout-element-lowblock img:hover {
-  transform: scale(1.5);
-}
-Убрал из-за ненадобности Change-1
-+ Добавил градиент при наведении на блок(код строчкой ниже)
-*/
 .workout-element:hover {
   background: linear-gradient(
     180deg,
@@ -471,13 +447,6 @@ ul li:hover::after {
 .container-pre-footer {
   position: relative;
 }
-/*
-Change-1
-В классе, ниже, добавил border.
-Сделал это для  избежания "подпрыгивания" email, после действия focus.
-Удалил у email и submit-email width + подправил эти блоки.
-flex-basis выставил 315px
-*/
 .email {
   outline: none;
   padding: 21px 68px 18px 39px;
@@ -945,21 +914,6 @@ footer {
     padding: 6px 15px;
     font-size: 12px;
   }
-  .card-background-maraphon {
-    background-image: url(../images/no1.png);
-    height: 308px;
-    width: 100%;
-  }
-  .card-background-vebinar {
-    background-image: url(../images/vebinar.png);
-    height: 308px;
-    width: 100%;
-  }
-  .card-background-yoga {
-    background-image: url(../images/no3.jpg);
-    height: 308px;
-    width: 100%;
-  }
   .card-event-name {
     font-size: 16px;
     width: 182px;
@@ -1266,9 +1220,12 @@ footer {
     padding-left: 19px;
     padding-top: 16px;
   }
+  /*
+  Перелопачиваем карточки
   .card-background-yoga {
     background-position-x: right;
   }
+  */
   .distribution-main-box {
     gap: unset;
     justify-content: unset;
