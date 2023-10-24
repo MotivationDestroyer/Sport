@@ -185,7 +185,12 @@ ul li:hover::after {
   gap: 20px;
 }
 .card {
-  width: 367.322px;
+  /*
+  change2
+  изменил width на max-width и поставил 32vw вместо 367.322px, чтобы карточки хоть немного подстраивались
+  изменил ещё раз, поставил 100vw т.к. при 768 max-width слишком сильно укорачивает карточки.
+  */
+  max-width: 100vw;
   height: 598px;
   position: relative;
 }
@@ -823,9 +828,12 @@ footer {
     margin-left: 4vw;
     max-width: 68%;
   }
-  .card {
+  /* change2
+   без вашего ведома убрал:
+    .card {
     width: 321.322px;
   }
+  */
   .footer-about-virtues {
     flex-wrap: wrap;
   }
@@ -910,7 +918,10 @@ footer {
     display: none;
   }
   .card-event-type {
-    right: unset;
+    /*
+    change2
+    убрал rigth: unset;
+    */
     padding: 6px 15px;
     font-size: 12px;
   }
