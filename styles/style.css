@@ -288,7 +288,7 @@ ul li:hover::after {
   height: 30px;
   background: var(--dark, #2b3541);
   bottom: 0;
-  right: 0;
+  left: 0;
   display: none;
 }
 .timetable-container {
