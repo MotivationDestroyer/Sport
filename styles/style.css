@@ -649,7 +649,7 @@ label {
 .footer-about-virtues {
   margin-top: 140px;
   display: flex;
-  gap: 57px;
+  gap: 48px;
 }
 .footer-about-virtues h3 {
   color: var(--dark, #2b3541);
@@ -798,6 +798,12 @@ footer {
   .training-girl {
     max-width: 56vw;
     margin-top: 30px;
+  }
+}
+@media(max-width:1331px)
+{
+  .training-slider{
+    bottom: -65px;
   }
 }
 @media (max-width: 1120px) {
