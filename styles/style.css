@@ -1065,6 +1065,7 @@ footer {
   }
   .submit-email {
     display: none;
+    flex-basis: 0;
   }
   .submit-phone {
     display: unset;
@@ -1262,7 +1263,7 @@ footer {
     width: 96vw;
   }
   .email {
-    width: 100%;
+    width: 90vw;
     padding: 0;
     padding-top: 19px;
     padding-bottom: 19px;
