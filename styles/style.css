@@ -515,6 +515,7 @@ ul li:hover::after {
   line-height: 150%;
   text-decoration-line: underline;
 }
+
 .checkbox:not(:checked),
 .checkbox:checked {
   position: absolute;
